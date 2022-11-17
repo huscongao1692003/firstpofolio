@@ -1,0 +1,37 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+
+    padding-top: 100px;
+}
+
+.gmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

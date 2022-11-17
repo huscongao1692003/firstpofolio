@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spline {
+  position: absolute;
+  height: 1200px;
+  width: 100%;
+  margin: 0;
+  top: 20px;
+  left: -300px;
+  overflow-x: hidden;
+  /* padding-right: 110px; */
+  scale: 10px;
+
+
+}
+
+.head {
+  position: relative;
+  /* max-width: 1500px; */
+  pointer-events: auto;
+  padding-top: 150px;
+
+}
+
+.aboutme {
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Roboto Mono', monospace;
+  padding-top: 230px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  padding-right: 800px;
+  font-family: 'Source Code Pro', monospace;
+  padding-left: 120px;
+}
+
+.profile_my_name {
+  font-size: 40px;
+  justify-content: center;
+  padding-left: 100px;
+  text-align: center;
+  padding-top: 170px;
+  color: #fff;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.facebook {
+  padding-left: 100px;
+  padding-top: 35px;
+  padding-right: 30px;
+}
+
+.github {
+  padding-top: 35px;
+  padding-right: 30px;
+  padding-left: 50px;
+}
+
+.email {
+  padding-top: 35px;
+  padding-left: 50px;
+}
+
+.color {
+  background-color: #fff;
+  width: 100%;
+
+  height: 700px;
+}
